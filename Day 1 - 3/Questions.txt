@@ -1,0 +1,46 @@
+Practice following ques daily:- (Try to do atleast 8 per day and revise each of the ques on next day)
+Note:- (Only start with it if you are an intermediate level programmer else this list can be quite daunting)
+Keep learning keep practicing
+
+Day-1:-
+Hashing Questions
+
+1> Largest subarray with 0 sum.         	         Time -  O(N)      Space - O(N)
+2> Count of 0 sum aubarrays.				 Time -  O(N)      Space - O(N)
+3> Distinct Elements in window of size k.	         Time -  O(N)      Space - O(N)
+4> Length of longest substring without repeat.		 Time -  O(N)      Space - O(N)
+5> Maximum number of consequtive ones - 1		 Time -  O(N)      Space - O(1)
+6> IsoMorphic strings					 Time -  O(N)      Space - O(N)
+7> Longest substring with k distinct characters		 Time -  O(N)      Space - O(N)
+8> No of substrings with exactly k distinct chars 	 Time -  O(N)      Space - O(N)
+
+-----------------------------------------------------------------------------------
+
+Day-2:-
+Dynamic Programming Questions
+
+1> LIS(lis + bitonic + building bridges)			Time - O(NLogN)		Space - O(N)
+2> Maximum Sum Increasing SubSequence				Time - O(N^2)		Space - O(N)
+3> Number of pallindromic substrings				Time - O(N^2)       	Space - O(N^2)
+4> Logest pallindromic substring (Unsolved)                   	Time - O(N^2+N^2)   	Space - O(N^2)
+5> Russian Doll (Can be improved)				Time - O(N^2)		Space - O(N)
+6> Rod Cutting                       				Time - O(N^2)		Space - O(N)
+7> Min Cuts to make all substrings pallindrome			Time - O(N^2)		Space - O(N^2)
+8> Bitonic Sequence                              		Time -  O(N^2)   	Space - O(N)
+
+-----------------------------------------------------------------------------------
+
+Day-3:-
+Graphs + Stacks and Queues   (I will be doing graphs with stacks and queues for more versatility)
+	
+1> Counting Islands 					Time - O(N^2)		Space - O(1)
+2> BipartiteCheck					Time - O(V+E)       Space - O(V)
+3> Cycle undirected Graphs                          	Time - O(V+E)       Space - O(V)
+4> Cycle directed Graphs 				Time - O(V+E)       Space - O(V)
+5> Nearest Smaller/Greater element on left		Time - O(N)         Space - O(1)
+6> Rain Water Trap					Time - O(N)         Space - O(1)
+7> Largest Histogram  (Can be improved)             	Time - O(N)         Space - O(N)
+8> Stock Span						Time - O(N)         Space - O(N)
+
+------------------------------------------------------------------------------------
+	
