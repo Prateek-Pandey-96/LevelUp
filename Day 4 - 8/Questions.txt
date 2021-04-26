@@ -1,0 +1,19 @@
+Day-1:-
+dynamic programming + one nice stack ques
+
+1> Min Jumps         	         						Time -  O(N^2)    Space - O(N)
+2> Best time to buy & sell stocks(1 Transaction allowed)			Time -  O(N)      Space - O(1)
+3> Best time to buy & sell stocks(INF Transaction allowed)			Time -  O(N)      Space - O(1)
+4> Best time to buy & sell stocks(Transaction fee)				Time - O(N)       Space - O(1)
+5> Largest area in a binary matrix(Histogram Extension)				Time - O(N^3)	  Space - O(N)
+6> Best time to buy & sell stocks(Cooldwon time)				Time - O(N)       Space - O(1)
+7> Best time to buy and sell stocks two transactions				Time - O(N)       Space - O(N)
+8> Max Profit when k transactions are allowed					Time - O(k*N^2)   Space - O(N^2)
+-----------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------
+	
