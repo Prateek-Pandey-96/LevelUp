@@ -10,6 +10,7 @@ dynamic programming + one nice stack ques
 7> Best time to buy and sell stocks two transactions				Time - O(N)       Space - O(N)
 8> Max Profit when k transactions are allowed					Time - O(k*N^2)   Space - O(N^2)
 -----------------------------------------------------------------------------------
+
 Day-6:-
 Backtracking + Hashing
 
@@ -21,8 +22,31 @@ Backtracking + Hashing
 6> Length of longest subarray with equal number of 0, 1 and 2							Time - O(N)   Space - O(N)
 7> Gold Miner - 2																		Time - O(N^M) Space - O(1)
 8> Coin Combination to form a given sum													Time - O(2^N) Space - O(N)
+9> Coin Combination to form a given sum (repetitions allowed)							Time - O(2^N) Space - O(N)
 -----------------------------------------------------------------------------------
+(Some Issues happened at workplace so brain was not working properly)
+Day-7:-
+Doing questions which I already know i.e just to finish 8 problems and keep the momentum going
 
+1> Kosaraju's algorithm                                                Time - O(V+E) Space - O(V)
+2> Tree Level Order, Left View, Right View							   Time - O(N)    Space - O(N)
+3> Top View, Bottom View, Vertical Order
+4>
+5>
+6>
+7>
+8>
 
+Seriously tough day
 ------------------------------------------------------------------------------------
-	
+Day - 8
+Miscellaneous
+1> All paths with max gold                                              Time - O(n*m)          Space - O(n*m)
+2> Vertical order traversal tree(top, bottom view covered)              Time - O(nlogn)             Space - O(n)
+3> Rabbits leetcode														Time - O(n)            Space - O(n)
+4> Find all anagrams of a pattern in a string							Time - O(n)            Space - O(n)
+5> All permutations														Time - O(2^n)          Space - O(n)
+6> Longest Common Subsequence											Time - O(n*m)          Space - O(n*m)
+7> Longest Pallindromic Subsequence										Time - O(n*m)          Space - O(n*m)
+8> Longest Common substring 											Time - O(n*m)          Space - O(n*m)
+9> All min jump paths													Time - O(n*m)          Space - O(n*m)	

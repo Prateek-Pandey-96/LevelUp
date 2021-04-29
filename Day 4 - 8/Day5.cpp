@@ -276,3 +276,31 @@ int main(){
     cin>>amt;
     printCombinations(coins, n, 0, 0, amt, "");
 }
+
+//Ques 9 Coin Combination to form a given sum (repetitions allowed)
+void printCombinations(int coins[], int n, int index, int ssf, int amt, string asf){
+    if(index==n){
+        if(ssf == amt){
+            cout<<asf<<"."<<'\n';
+        }
+        return;
+    } 
+    for(int j = amt/coins[index] ; j>=1; j--){
+        string part="";
+        for(int k=0;k<j;k++){
+            part+=to_string(coins[index])+"-";
+        }
+        printCombinations(coins, n, index+1, ssf+coins[index]*j, amt, asf+part); //Take n times
+    }
+    printCombinations(coins, n, index+1, ssf, amt, asf);    //Dont take
+}
+int main(){
+    int n, amt;
+    cin>>n;
+    int coins[n];
+    for(int i=0;i<n;i++){
+        cin>>coins[i];
+    }
+    cin>>amt;
+    printCombinations(coins, n, 0, 0, amt, "");
+}
