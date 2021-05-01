@@ -1,0 +1,14 @@
+Day9
+Dynamic Programming
+
+1> Matrix Chain multiplication                  Time - O(N^3) Space - O(N^2)
+2> Burst Balloon				Time - O(N^3) Space - O(N^2)
+3> Snake and Ladder                             Time - O(N)  Space - O(N)
+4> Knapsack all paths                           Time - O(N^N) Space - O(N^N)
+5> Distinct Subsequences of a string		Time - O(N)  Space - O(N)
+6> Catalan numbers + Number of Bsts		Time - O(N)  Space - O(N)
+7> Knights tour warndorff			Time - O(8^N^2) Space - O(1)
+8> Optimal Strategy for a game			Time - O(N^2)  Space - O(N^2)
+9> Can an array represent an Ap			Time - O(N)   Space - O(N)
+10> Mother Vertex				Time - O(V+E)  Space - O(V)
+--------------------------------------------------------------------------
