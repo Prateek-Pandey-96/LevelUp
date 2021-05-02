@@ -4,7 +4,7 @@ Dynamic Programming
 1> Matrix Chain multiplication                  Time - O(N^3) Space - O(N^2)
 2> Burst Balloon				Time - O(N^3) Space - O(N^2)
 3> Snake and Ladder                             Time - O(N)  Space - O(N)
-4> Knapsack all paths                           Time - O(N^N) Space - O(N^N)
+4> Knapsack all paths                           Time - O(N*N) Space - O(N*N)
 5> Distinct Subsequences of a string		Time - O(N)  Space - O(N)
 6> Catalan numbers + Number of Bsts		Time - O(N)  Space - O(N)
 7> Knights tour warndorff			Time - O(8^N^2) Space - O(1)
@@ -12,3 +12,15 @@ Dynamic Programming
 9> Can an array represent an Ap			Time - O(N)   Space - O(N)
 10> Mother Vertex				Time - O(V+E)  Space - O(V)
 --------------------------------------------------------------------------
+
+Day-10
+Binary Search + Dp
+
+1> Spiral traversal of a matrix         		  Time - O(N^2) 				   Space - O(N^2)
+2> All Lis paths                        		  Time - O(N^2) 				   Space - O(N)
+3> Max consequtive ones with a twist    		  Time - O(N)   				   Space - O(1)
+4> Longest consequtive sequence 				  Time - O(N)   				   Space - O(N)
+5> Painter's partition problem(binary search)	  Time - O(N*log(sum(Array)))      Space - O(1)
+6> Target Sum 									  Time - O(N*N) 					Space - O(N*N)
+7> Word Break                                     Time - O(N*N) 					Space - O(N)
+8> Word Break modified							  Time - O(N^3)						Space - O(N)
