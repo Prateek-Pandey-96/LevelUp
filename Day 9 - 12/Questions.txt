@@ -24,3 +24,27 @@ Binary Search + Dp
 6> Target Sum 									  Time - O(N*N) 					Space - O(N*N)
 7> Word Break                                     Time - O(N*N) 					Space - O(N)
 8> Word Break modified							  Time - O(N^3)						Space - O(N)
+
+--------------------------------------------------------------------------
+
+Day-11
+4 LeetCode Hard + 4 dp
+
+1> Sliding Window Maximum                         Time - O(N)                     Space - O(K)
+2> Merge k sorted lists                           Time - O(NlogK)				  Space - O(1)
+3> Implement Trie (Trie)						  Time and space ----> not clear as of now
+4> Visiting Rooms								   Time - O(V+E)                  Space - O(V)
+5> Island Perimeter                               Time - O(m*n)                  Space - O(1)
+6> Trie with a dot                                 Time and space ----> not clear as of now
+7> WildCard Pattern Matching
+8> First missing positive(Excellent Ques)		  Time - O(N)                       Space - O(1)
+
+--------------------------------------------------------------------------
+Day - 12
+Revise Trie for sure
+Binary Search                                      Time - O(LogN)                  Space - O(1)
+
+1> Search in a rotated array
+2> First and last position of an element
+3> Majority Element                                 Time - O(N)                     Space - O(1)
+4> Majority Element 2                               Time - O(N)                     Space - O(1)

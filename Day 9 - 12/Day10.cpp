@@ -259,34 +259,34 @@ int main(){
 }
 
 //Ques-7 Word Break
-unordered_map<string,bool> dp;
-
-bool solve(string s, unordered_set<string>& words){
-    if(s=="")
-        return true;
-    if(dp.count(s))
-        return dp[s];
+bool wordBreak(string s, vector<string>& wordDict) {
+    unordered_set<string> hashSet;
+    for(auto word:wordDict)
+        hashSet.insert(word);
     
-    for(int i=1;i<=s.length();i++){
-        string temp = s.substr(0,i);
-        if(words.find(temp)!=words.end()){
-            bool checkRemaining = solve(s.substr(i,s.length()-i), words);
-            if(checkRemaining)
-                return dp[s]=true;
+    bool dp[s.length()];
+    memset(dp, false, sizeof dp);
+    
+    string temp;
+    for(int i=0;i<s.length();i++){
+        for(int j=0;j<=i;j++){
+            temp = s.substr(j,i-j+1);
+            if(hashSet.find(temp)!=hashSet.end())
+            {   
+                if(j==0)
+                    dp[i] = true;
+                else
+                    dp[i] = dp[j-1];
+             }
+             if(dp[i])
+             	break;
         }
     }
-    return dp[s]=false;
-}
-
-bool wordBreak(string s, vector<string>& wordDict) {
-    dp.clear();
-    
-    unordered_set<string> words;
-    for(int i=0;i<wordDict.size();i++){
-        words.insert(wordDict[i]);
+    for(auto i:dp){
+        cout<<i<<" ";
     }
     
-    return solve(s,words);
+    return dp[s.length()-1];
 }
 
 //Ques-8 Word Break modified
