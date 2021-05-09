@@ -1,0 +1,22 @@
+Day - 16
+
+Note:- Whenever you see a Dag think about topo sort
+
+1> Queue Queue Monk and time Hackerearth
+2> Topo Sort Course Schedule Cses
+3> Topo with pruning + DP(Longest Flights Cses)
+4> Topo with pruning + DP(Game Routes Cses)
+5> Shortest Route 1 Cses (Dijkstra)
+6> Shortest Route 2 Cses ( Floyd Warshall)
+7> WordBreak using trie
+8> Max depth of an N-Array tree
+9> Construct a binary tree from a sorted array
+10> Construct a binary tree from inorder and preorder traversal
+
+
+Day-17
+
+1> Tree Subordintes
+2> Diameter in O(N) single traversal
+3> Rerooting a tree
+Some HackerRank problems 
